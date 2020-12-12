@@ -20,3 +20,9 @@ Within this same file, you can choose which type of visualization to use: ArcGIS
 We suggest using GoogleMaps+Bokeh as it is easiest to set up. Other than running the relevant code snippets, you will need your own Google API key.
 
 Visualization includes other releveant data associated with each point and can be further extended if desired to include other freatures of the Data (ex. MMSI number).
+
+
+For the flow file included in this folder, some of the implementation of this project was performed there but we decided to not be confined to NiFi's paradigm. Specifically, we have the connection to the simulator, the logging of all the attributes (lines of text), and committing those attributes to a csv.
+
+The html file included is the output of running the gmplot visualization code within Storage_Visualization.ipynb.
+
